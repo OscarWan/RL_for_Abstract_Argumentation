@@ -277,7 +277,7 @@ if __name__ == "__main__":
         plt.xlabel("episodes")
         plt.legend(loc=7)
         plt.grid()
-        plt.savefig('/home/minyi/img/random/epsilon{0}_lr{1}_gamma{2}_structure{3}.png'.format(epsilon, lr, gamma, structure))
+        plt.savefig('../img/random/epsilon{0}_lr{1}_gamma{2}_structure{3}.png'.format(epsilon, lr, gamma, structure))
         plt.show()
         
         print('The average winning rate is', best_converged_winning_rate[1])
